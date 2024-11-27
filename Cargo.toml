@@ -1,0 +1,9 @@
+[package]
+name = "async-colorsaurus-crossterm-bug"
+edition = "2021"
+
+[dependencies]
+terminal-colorsaurus = "0.4.7"
+crossterm = { version = "0.28", features = ["event-stream"] }
+tokio = { version = "1.41", features = ["full"] }
+futures-util = "0.3.31"
